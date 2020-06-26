@@ -1,0 +1,80 @@
+*{
+    
+    font-family: 'Cabin', sans-serif;
+}
+
+
+
+/*Contenedor todo*/
+.container-all{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background: #d8e4ed;
+    margin-top: 40px;
+    border-top: 6px solid #8541a8;
+}
+/*Titulo*/
+.title{
+    font-size: 40px;
+    margin-bottom: 40px;
+    color:#4e3496;
+}
+/*Subtitulo*/
+.sub-title{
+    font-size: 30px;
+    font-weight: 400;
+    color:#2e2d2d;
+}
+
+/*Contenedor imagen*/
+.container-all img{
+    width: 350px;
+    float: left;
+    margin-right: 20px;
+
+}
+/*Contenedor de todo etiqueta p*/
+.container-all p{
+    font-size: 18px;
+     font-family: 'Cabin', sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.container-all b{
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h3{
+    color:aliceblue;
+}
+
+.container .enlace a {
+    font-size: 18px;
+   font-family: 'Cabin', sans-serif;
+    text-decoration: none; /* La propiedad text-decoration permite que el texto sea decorado*/
+    color: #8541a8;
+    
+}
+.boton{    
+ display: inline-block;
+    padding: 6px;
+    width: 250px;
+    font-weight: 300;
+    border: 1px solid rgba(24, 16, 16, .7);
+    color: rgb(10, 16, 168);
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+
+.boton:hover{
+    color:white;
+    background-color:#bbd2e3;
+}

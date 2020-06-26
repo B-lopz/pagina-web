@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Testimonial HTML</title>
+    <link rel="stylesheet" href="css/estilotestimonial.css">
+    <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+<link rel="shortcut icon" href="imagenes/favicon-16x16.png" type="image/x-icon">
+
+     <style>
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap');
+</style>
+    </head>
+
+  <body>
+
+    <div class="testimonial-section">
+      <div class="inner-width">
+        <h1>Qué opinan las personas de esta página</h1>
+        <div class="testimonial-pics">
+          <img src="imagenes/mark1.jpg" alt="test-1" class="active">
+          <img src="imagenes/musk1.jpg" alt="test-2">
+        </div>
+
+        <div class="testimonial-contents">
+          <div class="testimonial active" id="test-1">
+            <p>Considero que es una de las mejores paginas que he visitado la informacion que me esta dando es muy util ademas la estructura esta muy bien ya que capta la atencion del espectado. "FELICIDADES"</p>
+              <span class="description">Alejandra Ramírez / Estudiante / Primer Año de Bachillerato </span>
+          </div>
+
+          <div class="testimonial" id="test-2">
+            <p>Pues yo pienso que está muy bonito, muy creativo y el contraste de los colores utilizados le da un bonito toque a la página ademas de ser la pagina con mejores animaciones hover.</p>
+            <span class="description">Paola Menjivar / Estudiante / Primer Año de Bachillerato</span>
+          </div>
+
+          
+          </div>
+        </div>
+      </div>
+      
+    
+     <div class="sm">
+      <a href="https://es-la.facebook.com/login/"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com/login"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/accounts/login/?hl=es-la"><i class="fab fa-instagram"></i></a>
+      <a href="https://accounts.google.com/signin/v2/identifier?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Des-419%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUC4idpySVSocAnGPNV-4FC-g&hl=es-419&ec=65620&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.linkedin.com/uas/login?_l=es"><i class="fab fa-linkedin-in"></i></a>
+    <a href="contacto.html" class="boton">Ir a contacto</a>
+      </div>
+    
+      
+    <script type="text/javascript">
+      $('.testimonial-pics img').click(function(){
+        $(".testimonial-pics img").removeClass("active");
+        $(this).addClass("active");
+
+        $(".testimonial").removeClass("active");
+        $("#"+$(this).attr("alt")).addClass("active");
+      });
+    </script>
+      
+  </body>
+</html>
